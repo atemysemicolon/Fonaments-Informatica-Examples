@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Principal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics_Console.cpp">
+    <ClCompile Include="fn_call_types.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Fn_example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fn_call_types.cpp">
+    <ClCompile Include="Graphics_Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Principal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Menu.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics_Console.h">
+    <ClInclude Include="fn_call_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fn_example.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="fn_call_types.h">
+    <ClInclude Include="Graphics_Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
