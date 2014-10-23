@@ -78,12 +78,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fn_call_types.cpp" />
     <ClCompile Include="Fn_example.cpp" />
     <ClCompile Include="Graphics_Console.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Principal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fn_call_types.h" />
     <ClInclude Include="Fn_example.h" />
     <ClInclude Include="Graphics_Console.h" />
     <ClInclude Include="Menu.h" />

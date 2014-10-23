@@ -27,6 +27,9 @@
     <ClCompile Include="Fn_example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fn_call_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fn_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fn_call_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

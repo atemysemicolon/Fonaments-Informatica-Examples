@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "Menu.h"
 #include "Fn_example.h"
+#include "fn_call_types.h"
 void menu()
 {	
 	system("cls");
@@ -20,11 +21,12 @@ void menu()
 
 int menuHandler(char opcio)
 {
+	system("cls");
 	switch (opcio)
 	{
 	case '1': print_message_about_functions();
 		break;
-	case '2': //function call
+	case '2': print_fn_call_message();
 		break;
 	case '3': //kbhit vs getch 
 		break;
@@ -34,6 +36,6 @@ int menuHandler(char opcio)
 		return 1;
 		break;
 	};
-
+	system("PAUSE");
 	return 0;
 }
